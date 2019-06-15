@@ -9,11 +9,17 @@ a new robotic time-domain survey currently in operation at the Palomar Observato
 `braai` demonstrates a state-of-the-art performance as quantified by 
 its low false negative and false positive rates.
 
+### `braai` architecture
+
+![](doc/fig-braai.png)
+
 ### Dataset
 
 todo: plots  
 
 ### Classifier performance
+
+![](doc/fig-perf_d6_m7.png)
 
 todo: plots 
 
