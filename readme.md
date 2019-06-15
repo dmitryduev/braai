@@ -19,4 +19,8 @@ todo: plots
 
 ### Use `braai`
 
+todo: jupyter notebook: find a nice SN on Kowalski, grab it from mars.lco.global, make triplet, run braai
+
+#### Edge TPU
+
 ### Train your own `braai`
