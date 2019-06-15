@@ -21,8 +21,6 @@ todo: plots
 
 ![](doc/fig-perf_d6_m7.png)
 
-todo: plots 
-
 ### Use `braai`
 
 todo: jupyter notebook: find a nice SN on Kowalski, grab it from mars.lco.global, make triplet, run braai
