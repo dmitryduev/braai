@@ -28,3 +28,26 @@ todo: jupyter notebook: find a nice SN on Kowalski, grab it from mars.lco.global
 #### Edge TPU
 
 ### Train your own `braai`
+
+Build and launch the app container:
+```bash
+# without GPU support:
+docker build --rm -t braai:cpu -f Dockerfile .
+# with GPU support (requires nvidia-docker):
+docker build --rm -t braai:gpu -f gpu.Dockerfile .
+
+# run:
+# without GPU support:
+docker run -it --rm --name braai -v /path/to/store/data:/data braai:cpu
+# with GPU support (requires nvidia-docker) exposing the first GPU:
+docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -it --rm --name braai -v /path/to/store/data:/data braai:gpu
+
+```
+
+---
+
+Train `braai`:
+
+```bash
+python /app/braai.py --t_stamp 20190614_003916 --model VGG6 --epochs 200 --patience 50 --batch_size 64 --verbose
+```
