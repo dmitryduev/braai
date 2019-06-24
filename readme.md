@@ -29,6 +29,12 @@ todo: jupyter notebook: find a nice SN on Kowalski, grab it from mars.lco.global
 
 ### Train your own `braai`
 
+#### Colab
+
+todo:
+
+#### Docker
+
 Build and launch the app container:
 ```bash
 # without GPU support:
