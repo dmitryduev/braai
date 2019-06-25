@@ -23,15 +23,16 @@ todo: plots
 
 ### Use `braai`
 
-todo: jupyter notebook: find a nice SN on Kowalski, grab it from mars.lco.global, make triplet, run braai
+todo: jupyter notebook: make triplet for a nice SN, run braai
 
 #### Edge TPU
 
 ### Train your own `braai`
 
-#### Colab
+#### Jupyter/Colab
 
-todo:
+See [this jupyter notebook](https://github.com/dmitryduev/braai/blob/master/nb/braai_train.ipynb), or 
+[![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmitryduev/braai/blob/master/nb/braai_train.ipynb)
 
 #### Docker
 
