@@ -23,7 +23,7 @@ todo: plots
 
 ### Use `braai`
 
-todo: jupyter notebook: make triplet for a nice SN, run braai
+See [this jupyter notebook](https://github.com/dmitryduev/braai/blob/master/nb/braai_run.ipynb)
 
 #### Edge TPU
 
