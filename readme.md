@@ -9,7 +9,7 @@ a new robotic time-domain survey currently in operation at the Palomar Observato
 `braai` demonstrates a state-of-the-art performance as quantified by 
 its low false negative and false positive rates.
 
-For details, please see [Duev et al. 2019, MNRAS, accepted](https://arxiv.org/pdf/1907.11259.pdf).
+For details, please see [Duev et al. 2019, MNRAS, 489 (3), 3582-3590](https://academic.oup.com/mnras/article/489/3/3582/5554758).
 
 [arXiv:1907.11259](https://arxiv.org/pdf/1907.11259.pdf)
 
@@ -30,6 +30,13 @@ todo: plots
 See [this jupyter notebook](https://github.com/dmitryduev/braai/blob/master/nb/braai_run.ipynb)
 
 #### Edge TPU
+
+### Transfer learning with `braai`
+
+#### Jupyter/Colab
+
+See [this jupyter notebook](https://github.com/dmitryduev/braai/blob/master/nb/braai_tl.ipynb), or 
+[![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmitryduev/braai/blob/master/nb/braai_tl.ipynb)
 
 ### Train your own `braai`
 
